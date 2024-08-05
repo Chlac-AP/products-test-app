@@ -1,3 +1,6 @@
+# Clone command
+git clone --recurse-submodules https://github.com/Chlac-AP/products-test-app.git
+
 # Front-end
 
 Créer un module angular "product" avec 2 composants (basés sur primeng): 
