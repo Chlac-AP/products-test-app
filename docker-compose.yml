@@ -6,7 +6,7 @@ services:
     ports:
       - 4200:4200
     volumes:
-      - ./front:/usr/src/app
+      - ./front/src:/usr/src/app/src
 
   back:
     image: back
