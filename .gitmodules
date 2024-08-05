@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = https://github.com/Chlac-AP/products-test-app-back.git
+[submodule "front"]
+	path = front
+	url = https://github.com/Chlac-AP/products-test-app-front.git

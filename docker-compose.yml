@@ -1,0 +1,24 @@
+services:
+  front:
+    image: front
+    container_name: front
+    build: ./front
+    ports:
+      - 4200:4200
+    volumes:
+      - ./front:/usr/src/app
+
+  back:
+    image: back
+    container_name: back
+    build: ./back
+    ports:
+      - 3000:3000
+    volumes:
+      - ./back/src:/usr/src/app/src
+  
+#  jenkins:
+#    image: jenkins/jenkins
+#    container_name: jenkins
+#    ports:
+#      - 8080:8080
